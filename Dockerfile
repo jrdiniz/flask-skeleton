@@ -1,4 +1,4 @@
-FROM ubuntu:latest
+FROM ubuntu:18:04
 MAINTAINER Juliano Resende Diniz "juliano.resende@gmail.com"
 RUN apt-get update -y
 RUN apt-get install -y python3-pip python3-dev build-essential
